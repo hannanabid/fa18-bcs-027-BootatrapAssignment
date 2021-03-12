@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Al-Nazir Palace</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style media="screen">
+    body{
+      background-color: white;
+      font-family: cursive;
+    }
+    header{
+      display: flex;
+      justify-content: space-between;
+    }
+        #logo{
+          margin-left: 15px;
+          height:40px;
+          width: auto;
+          margin-top: 5px;
+        }
+      header a button{
+          font-size: 22px;
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+          border-radius: 15px;
+          box-sizing: border-box;
+          border-spacing:  20px;
+          margin-top: 10px;
+          transition-duration: 1s;
+          border: none;
+          background-color: white;
+
+
+        }
+        header a button:hover{
+          background-color: orange;
+          color: white;
+          font-size: 28px;
+        }
+        .flex-button{
+          display: flex;
+          /* justify-content: space-between; */
+          flex-direction: row;
+          justify-content: flex-end;
+        }
+        #front{
+          width: 100%;
+          height: 400px;
+          filter: blur(8px);
+         webkit-filter: blur(8px);
+
+        }
+        .text{
+          background-color: rgb(0,0,0); /* Fallback color */
+         background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+         color: white;
+         font-weight: bold;
+         border: 3px solid white;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         z-index: 2;
+         width: 80%;
+         padding: 20px;
+         text-align: center;
+         /* font-family: Lucida Handwriting; */
+        }
+        .text a button{
+          font-size: 20px;
+          transition-duration: 1s;
+          border-radius: 10px;
+          color: black;
+        }
+        .text a button:hover{
+          /* background-color: orange; */
+          color: black;
+          font-size: 30px;
+        }
+        #important{
+          margin-top: 60px;
+          background-color: orange;
+          text-align: center;
+        }
+        .choose{
+              display: flex;
+              justify-content: center;
+              margin-top:20px;
+              font-size: 130px;
+
+        }
+        .choose p{
+          font-size: 20px;
+
+        }
+
+        .booking{
+           text-align: center;
+        }
+        .hrr{
+
+          border: 2px solid orange;
+        }
+      .event h2{
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid orange;
+        border-radius: 10px;
+      }
+      .event h2:hover{
+        font-size: 30px;
+        background-color: orange;
+        color: white;
+        transition-duration: 1s;
+      }
+
+
+    </style>
+  </head>
+  <body>
+         <header>
+         <div class="col-lg-6" >
+
+                  <a href="#"><img src="log.png" class="rounded-circle"  id="logo" alt=""></a>
+
+         </div>
+         <div class="col-lg-6 flex-button" >
+           <div class="flex-button">
+
+
+                <a href="Al-NazirPalce.html"> <button type="button" name="HOME">HOME</button> </a>
+                <a href="Al-NazirPalce.html/ABOUT"><button type="button" name="ABOUT">ABOUT</button> </a>
+                <a href="#"><button type="button" name="MENU">MENU</button> </a>
+                <a href="#"><button type="button" name="CONTACT">CONTACT</button> </a>
+                <a href="Al-NazirPalce/LOGIN"><button type="button" name="LOGIN/SIGNUP">LOGIN/SIGNUP</button> </a>
+         </div>
+         </div>
+         </header>
+         <div class="main">
+         <div class="row">
+           <div class="col-lg-12 ">
+             <br>
+             <br>
+             <br>
+               <img src="front.jpg" id="front" alt="">
+                  <div class="text">
+                    <h1>Al-NAZIR PALCE</h1>
+                    <h4><i>"Where dreams come true"</i></h4>
+                    <a href="#"> <button type="button" name="button">FOR BOOKING NOW</button> </a>
+           </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-12" id="important">
+               <h2>Why choose Al-Nazir Palace?</h2>
+            </div>
+            </div>
+            <div class="row">
+        <div class="col-lg-3 choose">
+          <div class="row">
+            <div class="col-lg-12">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="col-lg-12">
+                <p >
+                  "Your important day deserves a perfect venue. For that we offer easily accessible, the most attractive and comfortable venues to make your event truly unforgettable."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 choose">
+          <div class="row">
+            <div class="col-lg-12">
+              <i class="fas fa-utensils"></i>
+              <div class="col-lg-12">
+                <p >
+                  "The heart of every catering business is the kitchen. We operate a very well designed, nicely equipped and very well staffed kitchen to serve our guests with finger licking good food."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 choose">
+          <div class="row">
+            <div class="col-lg-12">
+              <i class="fas fa-wifi"></i>
+              <div class="col-lg-12">
+                <p >
+                  "We provide you the best environment for your best day. we try to give you all the fcailities e.g: Wifi,Cameras survellence."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 choose">
+          <div class="row">
+            <div class="col-lg-12">
+              <i class="fas fa-phone-square-alt"></i>
+              <div class="col-lg-12">
+                <p>
+                  "We believe that your event must be planned and executed very smoothly as per your desire. We are available 24/7, feel free to call for any inquires and suggestions."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<br>
+<br>
+<br>
+           <hr class="hrr">
+           <div class="row">
+             <div class="col-lg-12 booking">
+               <h2>FOR BOOKING & FURTHER INFORMATION</h2>
+               <h4>Call us:0348-48***** or email us on info@alnazirpalacecom</h4>
+             </div>
+           </div>
+           <hr class="hrr">
+           <br>
+           <br>
+           <br>
+           <div class="row">
+             <div class="col-lg-12">
+               <h1 style="margin-left:15px"> <u >LATEST EVENTS </u></h1>
+             </div>
+           </div>
+
+           <div class="row event" >
+             <div class="col-lg-3">
+               <div class="row">
+                 <div class="col-lg-12">
+                   <img src="frontt.jpg" width="100%" height="250px">
+                 </div>
+                 <div class="col-lg-12">
+                   <h2>Al-Nazir Palace</h2>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-3">
+               <div class="row">
+                 <div class="col-lg-12">
+                   <img src="walimaa.jpg" width="100%" height="250px">
+                 </div>
+                 <div class="col-lg-12">
+                   <h2>Walima Ceremony</h2>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-3">
+               <div class="row">
+                 <div class="col-lg-12">
+                   <img src="barat.jpg" width="100%" height="250px">
+                 </div>
+                 <div class="col-lg-12">
+                   <h2>Barat Ceremony</h2>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-3">
+               <div class="row">
+                 <div class="col-lg-12">
+                   <img src="mehndi.jpg" width="100%" height="250px">
+                 </div>
+                 <div class="col-lg-12">
+                   <h2>Mehndi Ceremony</h2>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+
+     </div>
+  </body>
+</html>
